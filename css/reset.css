@@ -1,0 +1,80 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+ul,
+ol {
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+	line-height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	border-radius: 0;
+	border: 1px solid #000;
+}
+
+input[type="checkbox"] {
+	border: none;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	padding: 0;
+}
+
+address {
+	font-style: normal;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/vars.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/global.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/media.css">
+	<title>KareliaTrip</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-top">
+				<div class="container grid">
+					<div class="col">
+						<a href="#" class="logo">KareliaTrip</a>
+					</div>
+
+					<div class="col">
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">О нас</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Направления</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Отели</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+
+						<button class="header__cta">Смотреть направления</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-body">
+				<div class="container grid">
+					<div class="header__text">
+						<h1 class="h1 header__title">Экскурсии по Карелии</h1>
+						<p class="header__desc">
+							Предлагаем Вам исследовать Карелию вместе с нами. Посетите лучшие места, узнайте их историю,
+							отдохните в необычных местах и приятно проведите время.
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="about block">
+				<div class="container">
+					<h2 class="h2 about__title">О нас</h2>
+
+					<div class="about__inner grid">
+						<img class="about__img" src="./images/about.jpg" alt="Горный парк «Рускеала»">
+
+						<div class="col">
+							<p class="description about__desc">
+								Мы специализируется на организации и проведении захватывающих экскурсий, <span>которые
+									помогут вам познакомиться с разными уголками</span> Карелии
+							</p>
+
+							<ul class="about__advantages advantages">
+								<li class="advantages__item">
+									<span class="advantages__text">Работаем с</span>
+									<span class="advantages__number">2018</span>
+								</li>
+								<li class="advantages__item">
+									<span class="advantages__text">Экскурсий проведено</span>
+									<span class="advantages__number">5000</span>
+								</li>
+								<li class="advantages__item">
+									<span class="advantages__text">Довольных клиентов</span>
+									<span class="advantages__number">80 000+</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="excursions section">
+				<div class="container">
+					<h2 class="h2 excursions__title">Направления</h2>
+
+					<ul class="excursions__list">
+						<li>
+							<article class="excursion"
+								style="background-image: url('./images/excursions/ruskeala.jpg');">
+								<span class="excursion__location">[61.948710, 30.579928]</span>
+								<h3 class="h3 excursion__title">Рускеала</h3>
+								<button class="excursion__btn btn-popup">Купить билет</button>
+							</article>
+						</li>
+						<li>
+							<article class="excursion" style="background-image: url('./images/excursions/kizhi.jpg');">
+								<span class="excursion__location">[62.084952, 35.212198]</span>
+								<h3 class="h3 excursion__title">Кижи</h3>
+								<button class="excursion__btn btn-popup">Купить билет</button>
+							</article>
+						</li>
+					</ul>
+					<a href="#" class="excursions__link">Смотреть все</a>
+				</div>
+			</section>
+
+			<div class="faq block">
+				<div class="container">
+					<h2 class="h2 faq__title">Часто задаваемые вопросы</h2>
+
+					<ul class="accordion">
+						<li class="accordion-item">
+							<div class="accordion-item__control" aria-expanded="false">
+								<div>
+									<h4 class="h4 accordion-item__title">Какова продолжительность экскурсий?</h4>
+									<span class="accordion-item__icon"></span>
+								</div>
+								<div class="accordion-item__content" aria-hidden="true">
+									<p>
+										Продолжительность экскурсий может варьироваться в зависимости от типа экскурсии.
+										Мы предлагаем как короткие экскурсии, длительностью несколько часов, так и
+										многодневные экскурсии.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="accordion-item__control" aria-expanded="false">
+								<div>
+									<h4 class="h4 accordion-item__title">Есть ли возможность заказать индивидуальную
+										экскурсию?</h4>
+									<span class="accordion-item__icon"></span>
+								</div>
+								<div class="accordion-item__content" aria-hidden="true">
+									<p>
+										Продолжительность экскурсий может варьироваться в зависимости от типа экскурсии.
+										Мы предлагаем как короткие экскурсии, длительностью несколько часов, так и
+										многодневные экскурсии.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="accordion-item__control" aria-expanded="false">
+								<div>
+									<h4 class="h4 accordion-item__title">Какая экипировка и снаряжение необходимы для
+										участия в экскурсии?</h4>
+									<span class="accordion-item__icon"></span>
+								</div>
+								<div class="accordion-item__content" aria-hidden="true">
+									<p>
+										Продолжительность экскурсий может варьироваться в зависимости от типа экскурсии.
+										Мы предлагаем как короткие экскурсии, длительностью несколько часов, так и
+										многодневные экскурсии.
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container grid">
+				<div class="col">
+					<div>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link_current">Главная</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">О нас</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Направления</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Отели</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+
+						<ul class="footer-links">
+							<li><a href="#" class="footer-links__link">Политика конфиденциальности</a></li>
+							<li><a href="#" class="footer-links__link">Политика сбора cookie</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<div class="footer__info">
+							<span class="footer__title">Офис</span>
+							<span class="footer__text">пр. Ленина, 25, Петрозаводск, Респ. Карелия, 185035</span>
+						</div>
+						<div class="footer__info">
+							<span class="footer__title">График работы</span>
+							<span class="footer__text">Пн-пт с 9:00 до 18:00 <br> cб-вс выходной</span>
+						</div>
+						<div class="footer__info">
+							<span class="footer__title">Мы в соцсетях</span>
+							<ul class="social">
+								<li><a href="#" class="social__link">Telegram</a></li>
+								<li><a href="#" class="social__link">WhatsApp</a></li>
+								<li><a href="#" class="social__link">Вконтакте</a></li>
+								<li><a href="#" class="social__link">Instagram</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<address class="col">
+					<div class="footer__contacts">
+						<a href="tel:+79111739926" class="footer__contact">+7(911)173-99-26</a>
+						<a href="mailto:kareliatrip@gmail.ru" class="footer__contact">kareliatrip@gmail.ru</a>
+					</div>
+				</address>
+			</div>
+		</footer>
+	</div>
+
+	<script src="./index.js"></script>
+</body>
+
+</html>
